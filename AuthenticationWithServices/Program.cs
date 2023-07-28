@@ -21,8 +21,8 @@ namespace AuthenticationWithServices
             builder.Services.AddRazorPages();
 
             builder.Services.AddAuthentication().AddGoogle(opt => {
-                opt.ClientId = "228416462843-r2d5mijpbbg1alrf542haap41f8tunta.apps.googleusercontent.com";
-                opt.ClientSecret = "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";
+                opt.ClientId = "ClientId";
+                opt.ClientSecret = "ClientSecret";
             });
 
             var app = builder.Build();
